@@ -31,6 +31,7 @@ nav{
     color: #FFFFFF;
     font-size: 16;
     font-weight: bold;
+    border: none;
 }
 .hvr:hover{
     padding: 13px 40px;
@@ -38,6 +39,7 @@ nav{
 }
 header{
     max-width: 1440px;
+    max-height: 698px;
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +48,7 @@ header{
     margin: 0px auto;
 }
 .header-title{
-    margin: 280px 267px 152px;
+   
     text-align: center;
     font-size: 65px;
     font-weight: bold;
@@ -57,13 +59,14 @@ header{
     padding: 12px 36px;
     color: #FFFFFF;
     font-weight: bold;
+    border: none;
 
     
 }
 .press-btn{
     
      text-align: center;
-     margin-bottom: 152px;
+     padding: 12px 36px;
 
 }
 main{
@@ -94,6 +97,7 @@ main{
     color: #FFFFFF;
     font-weight: bold;
     padding: 12px 36px;
+    border: none;
 }
 .user-container{
     display: flex;
@@ -197,6 +201,7 @@ main{
     color: #FFFFFF;
     font-weight: bold;
     text-align: center;
+    border: none;
 }
 .focus-img{
     margin-left: 150px;
@@ -238,6 +243,7 @@ input[type="text"], input[type="email"],textarea{
     color: #FFFFFF;
     border-radius: 10px;
     margin-top: 19px;
+    border: none;
 }
 .end{
     text-align: center;
