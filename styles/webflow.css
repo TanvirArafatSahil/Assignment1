@@ -29,6 +29,7 @@ header{
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 100px;
 }
 .header-title{
     margin: 280px 267px 152px;
@@ -179,5 +180,18 @@ main{
     color: #FFFFFF;
     font-weight: bold;
     text-align: center;
+}
+.focus-img{
+    margin-left: 150px;
+    border-radius: 48px;
+}
+.focus{
+    max-width: 1140px;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.focus-sub-title{
+    color: #0000007a;
 }
 
