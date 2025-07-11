@@ -194,4 +194,31 @@ main{
 .focus-sub-title{
     color: #0000007a;
 }
-
+.touch-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 71px;
+    align-items: center;
+}
+input[type="text"], input[type="email"],textarea{
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 20px;
+    width: 75%;
+    
+}
+.touch-title{
+    width: 50%;
+    font-size: 87px;
+}
+.touch-form{
+    width:40%;
+}
+.touch-btn{
+    padding: 19px 101px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 19px;
+}
