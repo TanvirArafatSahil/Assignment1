@@ -23,13 +23,17 @@ nav{
     font-size: 16;
     font-weight: bold;
 }
+.hvr:hover{
+    padding: 13px 40px;
+    background-color: burlywood;
+}
 header{
     max-height: 698px;
-    max-width: 1440px;
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
+    background-position: center;
 }
 .header-title{
     margin: 280px 267px 152px;
@@ -38,16 +42,19 @@ header{
     font-weight: bold;
 }
 .press{
-    border-radius: 10px;
-    margin-left: 633px;
-    margin-bottom: 500px;
-    padding: 12px 36px;
-    border-radius: 10px;
     background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px;
     color: #FFFFFF;
     font-weight: bold;
-    text-align: center;
+
     
+}
+.press-btn{
+    
+     text-align: center;
+     margin-bottom: 152px;
+
 }
 main{
     max-width: 1140px;
@@ -221,4 +228,25 @@ input[type="text"], input[type="email"],textarea{
     color: #FFFFFF;
     border-radius: 10px;
     margin-top: 19px;
+}
+.end{
+    text-align: center;
+    padding: 104px 455px 103px 456px;
+    background-color: whitesmoke;
+}
+.end ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+.end ul li a{
+    text-decoration: none;
+}
+.end-logo{
+    color: #4E47FF;
+    font-size: 100px;
+}
+.end-description{
+    color: #8987A1;
 }
