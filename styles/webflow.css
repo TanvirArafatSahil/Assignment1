@@ -13,6 +13,8 @@ nav{
 .logo{
     margin-left: 120px;
     color: #4E47FF;
+    font-size: 34px;
+    font-weight: bolder;
 }
 .btn{
     margin-right: 120px;
@@ -28,12 +30,13 @@ nav{
     background-color: burlywood;
 }
 header{
-    max-height: 698px;
+    max-width: 1440px;
     background-image: url('../Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 100px;
     background-position: center;
+    margin: 0px auto;
 }
 .header-title{
     margin: 280px 267px 152px;
@@ -242,6 +245,7 @@ input[type="text"], input[type="email"],textarea{
 }
 .end ul li a{
     text-decoration: none;
+    color: black;
 }
 .end-logo{
     color: #4E47FF;
@@ -249,4 +253,5 @@ input[type="text"], input[type="email"],textarea{
 }
 .end-description{
     color: #8987A1;
+    
 }
